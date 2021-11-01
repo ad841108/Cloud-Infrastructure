@@ -13,4 +13,6 @@
 4. Sonarqube: https://hub.docker.com/_/sonarqube
 
 ## Screenshot for the Kubernetes Engine with the containers running on it.
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Main%20Terminal%20Application%20Running%20on%20Kubernetes.png">
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Docker%20Image%20Running%20on%20Kubernetes.png">
+
