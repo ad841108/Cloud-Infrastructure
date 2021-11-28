@@ -9,6 +9,9 @@
 6. Sonarqube: https://hub.docker.com/_/sonarqube
 
 ## Steps to run your Docker images on Kubernetes Engine
+## build the docker image of your web application
+
+
 #### Pull docker images, tag them and push them to GCP
 1. Web application: docker pull ad841108/gui_app
 2. Juypter notebook: docker pull jupyter/minimal-notebook
