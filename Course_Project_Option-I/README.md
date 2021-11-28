@@ -1,4 +1,4 @@
-# cloud_final_project_checkpoint
+# Cloud Final Project
 
 ## URLs for all docker images on Docker Hub
 1. Main Application with GUI: https://hub.docker.com/r/ad841108/gui_app
