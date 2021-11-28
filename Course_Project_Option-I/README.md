@@ -1,7 +1,7 @@
 # Cloud Final Project
 
 ## Walkthrough Video
-[Video](https://www.youtube.com/watch?v=bOGYTj56KRk)
+[Demo](https://www.youtube.com/watch?v=bOGYTj56KRk)
 
 
 ## URLs for all docker images on Docker Hub
