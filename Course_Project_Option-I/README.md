@@ -46,7 +46,7 @@ You have to build and push the image to your own docker account
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/StaticIP.png">
 3. upload yaml_files folder to gcp cloud storage
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files2.png">
-4. ``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .``. You should replace gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files to your own cloud storage path
+4. ``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .`` You should replace gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files to your own cloud storage path
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files.png">
 
 ## Screenshot for the Kubernetes Engine with the containers running on it.
