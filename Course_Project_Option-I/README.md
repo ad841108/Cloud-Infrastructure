@@ -1,7 +1,7 @@
 # cloud_final_project_checkpoint
 
 ## URLs for all docker images on Docker Hub
-1. Main Termiinal Application: https://hub.docker.com/r/ad841108/gui_app
+1. Main Application with GUI: https://hub.docker.com/r/ad841108/gui_app
 2. Juypter notebook: https://hub.docker.com/r/jupyter/minimal-notebook
 3. Apache Spark: https://hub.docker.com/r/bitnami/spark/
 4. Apache Hadoop Datanode: https://hub.docker.com/r/bde2020/hadoop-datanode
