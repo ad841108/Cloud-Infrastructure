@@ -1,5 +1,9 @@
 # Cloud Final Project
 
+## Walkthrough Video
+[Video](https://www.youtube.com/watch?v=bOGYTj56KRk)
+
+
 ## URLs for all docker images on Docker Hub
 1. Main Application with GUI: https://hub.docker.com/r/ad841108/gui_app
 2. Juypter notebook: https://hub.docker.com/r/jupyter/minimal-notebook
