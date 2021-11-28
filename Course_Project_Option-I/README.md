@@ -41,7 +41,7 @@ You have to build and push the image to your own docker account
 22. docker push gcr.io/temporal-genius-326917/sonarqube:1
 
 #### Deploy all of the images to Kubernetes Engine
-1. Create cluster:  gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster
+1. Create cluster:  ``gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster``
 2. Reserve a static IP address for each service including the web application
 
 
