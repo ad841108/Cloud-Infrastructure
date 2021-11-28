@@ -54,6 +54,9 @@ You have to build and push the image to your own docker account
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/imagepath.png">
 7.  ``cd yaml_files`` and run ``kubectl apply -f .``
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/apply-f.png">
+8. Now, you should see all images being deployed and exposed via Kubernetes
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/deployment.png">
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/service.png">
 
 ## Screenshot for the Kubernetes Engine with the containers running on it.
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Main%20Terminal%20Application%20Running%20on%20Kubernetes.png">
