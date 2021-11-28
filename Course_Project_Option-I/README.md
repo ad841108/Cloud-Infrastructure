@@ -10,7 +10,7 @@
 
 ## Steps to run your Docker images on Kubernetes Engine
 
-## build the docker image of your web application
+#### build the docker image of your web application
 1. cd App 
 2. docker build -f Dockerfile -t ad841108/gui_app .
 3. docker push ad841108/gui_app
