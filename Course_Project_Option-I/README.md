@@ -9,8 +9,12 @@
 6. Sonarqube: https://hub.docker.com/_/sonarqube
 
 ## Steps to run your Docker images on Kubernetes Engine
-## build the docker image of your web application
 
+## build the docker image of your web application
+1. cd App 
+2. docker build -f Dockerfile -t ad841108/gui_app .
+3. docker push ad841108/gui_app
+You have to build and push the image to your own docker account
 
 #### Pull docker images, tag them and push them to GCP
 1. Web application: docker pull ad841108/gui_app
@@ -40,6 +44,7 @@
 1. Create cluster:  gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster
 2. Reserve a static IP address for each service including the web application
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/StaticIP.png">
+
 ## Screenshot for the Kubernetes Engine with the containers running on it.
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Main%20Terminal%20Application%20Running%20on%20Kubernetes.png">
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Docker%20Image%20Running%20on%20Kubernetes.png">
