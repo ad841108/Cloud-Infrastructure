@@ -43,22 +43,35 @@ You have to build and push the image to your own docker account
 #### Deploy all of the images to Kubernetes Engine
 1. Create cluster:  gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster
 2. Reserve a static IP address for each service including the web application
+
+
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/StaticIP.png">
 3. upload yaml_files folder to gcp cloud storage
+
+
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files2.png">
+
+
 4. Copy it to your gcp shell. You should replace gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files to your own cloud storage path 
+
+
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files.png">
 
 ``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .``          
 5. You should change the image vairable in each deployment yaml file to the image path that you have pushed to the container registry
+
+
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/imagepath.png">
 7.  ``cd yaml_files`` and run ``kubectl apply -f .``
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/apply-f.png">
 8. Now, you should see all images being deployed and exposed via Kubernetes
+
+
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/deployment.png">
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/service.png">
 
-## Screenshot for the Kubernetes Engine with the containers running on it.
-<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Main%20Terminal%20Application%20Running%20on%20Kubernetes.png">
-<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Docker%20Image%20Running%20on%20Kubernetes.png">
+9. Use the url of your web application service, and it will navigate you to analysis tool services without installing any of them.
+
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/QuickDemo.gif">
+
 
