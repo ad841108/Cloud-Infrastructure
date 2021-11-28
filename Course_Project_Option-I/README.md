@@ -22,7 +22,7 @@ You have to build and push the image to your own docker account
 3. Apache Spark: ``docker pull bitnami/spark``
 4. Apache Hadoop Datanode: ``docker pull bde2020/hadoop-datanode``
 5. Apache Hadoop Namenode: ``docker pull bde2020/hadoop-namenode``
-6. Sonarqube: docker pull sonarqube
+6. Sonarqube: ``docker pull sonarqube``
 7. Tag them respectively and push it to the container registry on GCP platform
 8. You have to edit "temporal-genius-326917" of the following commands to your own project name
 9. docker tag ``ad841108/gui_app gcr.io/temporal-genius-326917/ad841108/gui_app:1``
