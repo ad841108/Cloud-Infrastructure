@@ -49,7 +49,7 @@ You have to build and push the image to your own docker account
 4. Copy it to your gcp shell. You should replace gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files to your own cloud storage path 
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files.png">
 
-``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .``
+``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .``          
 5. ``cd yaml_files`` and run ``kubectl apply -f .``
 
 ## Screenshot for the Kubernetes Engine with the containers running on it.
