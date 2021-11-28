@@ -50,7 +50,9 @@ You have to build and push the image to your own docker account
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/upload_yaml_files.png">
 
 ``gsutil cp -r gs://artifacts.temporal-genius-326917.appspot.com/containers/yaml_files .``          
-5. ``cd yaml_files`` and run ``kubectl apply -f .``
+5. You should change the image vairable in each deployment yaml file to the image path that you have pushed to the container registry
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/imagepath.png">
+7.  ``cd yaml_files`` and run ``kubectl apply -f .``
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/apply-f.png">
 
 ## Screenshot for the Kubernetes Engine with the containers running on it.
