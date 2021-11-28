@@ -32,11 +32,11 @@
 20. docker push bde2020/hadoop-namenode gcr.io/temporal-genius-326917/bde2020/hadoop-namenode:1
 21. docker tag ad841108/sonarqube gcr.io/temporal-genius-326917/sonarqube:1
 22. docker push gcr.io/temporal-genius-326917/sonarqube:1
-23. Create cluster:  gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster
 
 #### Deploy all of the images to Kubernetes Engine
 1. Create cluster:  gcloud container clusters create --machine-type n1-standard-2 --num-nodes 2 --zone us-central1-a --cluster-version latest dli3kubernetescluster
 2. Reserve a static IP address for each service including the web application
+<img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/image/StaticIP.png">
 ## Screenshot for the Kubernetes Engine with the containers running on it.
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Main%20Terminal%20Application%20Running%20on%20Kubernetes.png">
 <img width="1280" src="https://github.com/ad841108/Cloud-Infrastructure/blob/master/Course_Project_Option-I/Docker%20Image%20Running%20on%20Kubernetes.png">
